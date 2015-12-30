@@ -17,9 +17,9 @@
  *    "Font Awesome by Dave Gandy - http://fontawesome.io"
  *
  *  Weather Icons Bootstrap Package Author - Erik Flowers - erik@helloerik.com
- *  Weather Icons gives full credit for inspiration to Font Awesome and makes no 
- *  claim to invention, intellectual property, or ownership of methodology. 
- * 
+ *  Weather Icons gives full credit for inspiration to Font Awesome and makes no
+ *  claim to invention, intellectual property, or ownership of methodology.
+ *
  *  Support Open Source!
  *
  *  ------------------------------------------------------------------------------
@@ -41,13 +41,13 @@
   text-decoration: inherit;
   text-transform: none;
   -webkit-font-smoothing: antialiased;
-  *margin-right: .3em;
+  margin-right: .3em;
 }
 [class^="wi-"]:before,
 [class*=" wi-"]:before {
   text-decoration: inherit;
   display: inline-block;
-  speak: none;
+  /*speak: none;*/
 }
 .wi-day-cloudy-gusts:before {
   content: "\f000";
