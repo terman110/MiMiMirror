@@ -1,13 +1,11 @@
 <html>
 <head>
 	<title>MiMiMirror</title>
-	<!--<style type="text/css">
-		<?php include('css/main.css') ?>
-	</style>
+	<style type="text/css"><?php include('css/main.css') ?></style>
 	<link rel="stylesheet" type="text/css" href="css/weather-icons.css">
 	<script type="text/javascript">
 		var gitHash = '<?php echo trim(`git rev-parse HEAD`) ?>';
-	</script>-->
+	</script>
 	<meta name="google" value="notranslate" />
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 </head>
@@ -22,21 +20,23 @@
 </div>
 -->
 
-<!--
 <script src="js/jquery.js"></script>
 <script src="js/jquery.feedToJSON.js"></script>
-<script src="js/ical_parser.js"></script>
 <script src="js/moment-with-locales.min.js"></script>
+
 <script src="js/config.js"></script>
-<script src="js/rrule.js"></script>
+
 <script src="js/version/version.js" type="text/javascript"></script>
+<!--
+<script src="js/ical_parser.js"></script>
+<script src="js/rrule.js"></script>
 <script src="js/calendar/calendar.js" type="text/javascript"></script>
 <script src="js/compliments/compliments.js" type="text/javascript"></script>
 <script src="js/weather/weather.js" type="text/javascript"></script>
 <script src="js/time/time.js" type="text/javascript"></script>
 <script src="js/news/news.js" type="text/javascript"></script>
-<script src="js/main.js?nocache=<?php echo md5(microtime()) ?>"></script>
 -->
+<script src="js/main.js?nocache=<?php echo md5(microtime()) ?>"></script>
 <!-- <script src="js/socket.io.min.js"></script> -->
 
 </body>
