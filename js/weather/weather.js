@@ -28,7 +28,7 @@ var weather = {
 	apiBase: 'http://api.openweathermap.org/data/',
 	weatherEndpoint: 'weather',
 	forecastEndpoint: 'forecast/daily',
-	updateInterval: config.weather.interval || 6000,
+	updateInterval: config.weather.interval || 30000, // 6000,
 	fadeInterval: config.weather.fadeInterval || 1000,
 	intervalId: null
 }

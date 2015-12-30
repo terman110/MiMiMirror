@@ -34,14 +34,8 @@ jQuery(document).ready(function($) {
     moment.locale(config.lang);
 
 	version.init();
-
 	time.init();
-
-	// calendar.init();
-
 	compliments.init();
-
 	weather.init();
-
 	news.init();
 });

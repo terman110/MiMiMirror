@@ -5,6 +5,8 @@ var config = {
         dateFormat: 'dddd, LL'
     },
     weather: {
+    	interval: 30000,
+    	fadeInterval: 1000,
         //change weather params here:
         params: {
             q: 'Cologne, Germany',
