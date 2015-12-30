@@ -28,20 +28,20 @@ jQuery(document).ready(function($) {
 
 	var eventList = [];
 
-	// var lastCompliment;
-	// var compliment;
+	var lastCompliment;
+	var compliment;
 
     moment.locale(config.lang);
 
 	version.init();
 
-	// time.init();
+	time.init();
 
 	// calendar.init();
 
-	// compliments.init();
+	compliments.init();
 
-	// weather.init();
+	weather.init();
 
 	// news.init();
 });
