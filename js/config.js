@@ -1,16 +1,18 @@
 var config = {
     lang: 'de',
     time: {
-        timeFormat: 24
+        timeFormat: 24,
+        dateFormat: 'dddd, LL'
     },
     weather: {
         //change weather params here:
-        //units: metric or imperial
         params: {
-            q: 'Cologne,Germany',
+            q: 'Cologne, Germany',
+            // metric or imperial
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
-            lang: 'de',
+            // leave blank to be replaced by previously set value
+            lang: '',
             APPID: 'bc122d4132630c9a0aa19b74ff51aadd'
         }
     },
@@ -34,6 +36,11 @@ var config = {
         ]
     },
     news: {
-        feed: 'http://www.spiegel.de/schlagzeilen/tops/index.rss' //'http://www.heise.de/newsticker/heise-atom.xml'
+        feed: 'http://www.spiegel.de/schlagzeilen/tops/index.rss'
     }
+}
+
+// Apply global lang to weather
+if( config.weather.lang == '') {
+    config.weather.lang = config.lang;
 }
