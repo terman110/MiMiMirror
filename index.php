@@ -10,7 +10,7 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 </head>
 
-<?php $IsLocalhost = in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1','::1'); ?>
+<?php $IsLocalhost = in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1','::1')); ?>
 
 <body>
 	<div class="top left"><div class="date small dimmed"></div><div class="time"></div><div class="calendar xxsmall"></div></div>
