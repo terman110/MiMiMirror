@@ -1,6 +1,6 @@
 <?php
 echo '<h1>git pull</h1>';
-echo '<p>' . exec('cd /home/pi/projects/MiMiMirror & git pull', $output, $return_val) . '</p>';
+echo '<p>' . exec('git -C /home/pi/projects/MiMiMirror pull', $output, $return_val) . '</p>';
 echo '<p>';
 foreach($output as $out)
 	echo $out . '<br />';
