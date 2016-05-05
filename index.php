@@ -10,7 +10,6 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 </head>
 <body>
-    <!-- <p>Hello World!</p> -->
 	<div class="top left"><div class="date small dimmed"></div><div class="time"></div><div class="calendar xxsmall"></div></div>
 	<div class="top right"><div class="windsun small dimmed"></div><div class="temp"></div><div class="forecast small dimmed"></div></div>
 	<div class="lower-third center-hor"><div class="compliment light"></div></div>
@@ -20,11 +19,11 @@
 <script src="js/jquery.js"></script>
 <script src="js/jquery.feedToJSON.js"></script>
 <script src="js/moment-with-locales.min.js"></script>
+<script src="js/rrule.js"></script>
 
 <script src="js/config.js"></script>
 
 <script src="js/version/version.js" type="text/javascript"></script>
-<script src="js/rrule.js"></script>
 <script src="js/compliments/compliments.js" type="text/javascript"></script>
 <script src="js/weather/weather.js" type="text/javascript"></script>
 <script src="js/time/time.js" type="text/javascript"></script>
