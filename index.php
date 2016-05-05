@@ -18,7 +18,7 @@
 	<div class="lower-third center-hor"><div class="compliment light"></div></div>
 	<div class="bottom center-hor"><div class="news medium light"></div></div>
     <?php if(!$IsLocalhost) {
-            echo '<div class="bottom right">
+            echo '<div class="bottom right xsmall">
             <a href="system_ip.php">IP Address</a><br />
             <a href="git_pull.php">Update</a><br />
             <a href="system_update.php">System Update</a><br />
