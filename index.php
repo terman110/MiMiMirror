@@ -9,11 +9,22 @@
 	<meta name="google" value="notranslate" />
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 </head>
+
+<?php $IsLocalhost = in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1','::1'); ?>
+
 <body>
 	<div class="top left"><div class="date small dimmed"></div><div class="time"></div><div class="calendar xxsmall"></div></div>
 	<div class="top right"><div class="windsun small dimmed"></div><div class="temp"></div><div class="forecast small dimmed"></div></div>
 	<div class="lower-third center-hor"><div class="compliment light"></div></div>
 	<div class="bottom center-hor"><div class="news medium light"></div></div>
+    <?php if(!$IsLocalhost) {
+            echo '<div class="bottom right">
+            <a href="system_ip.php">IP Address</a><br />
+            <a href="git_pull.php">Update</a><br />
+            <a href="system_update.php">System Update</a><br />
+            <a href="system_restart.php">System restart</a>
+            </div>';
+    } ?>
 </div>
 
 <script src="js/jquery.js"></script>
