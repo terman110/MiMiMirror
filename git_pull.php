@@ -4,6 +4,6 @@ echo '<p>' . exec('cd /home/pi/projects/MiMiMirror & git pull', $output, $return
 echo '<p>';
 foreach($output as $out)
 	echo $out . '<br />';
-echo '</p>'
+echo '</p>';
 echo '<p>' . $return_val . '</p>';
 ?>
